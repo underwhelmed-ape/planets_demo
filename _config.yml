@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /planets_demo
+exclude: ['README.md']
