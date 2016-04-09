@@ -2,19 +2,21 @@
 <html>
 <head>
 	<title>planets of the solar system</title>
+	<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
 </head>
 <body>
 
 <header>
 	<h1>Planets of the Solar System</h1>
+	{%  include nav.html %}
 </header>
-<nav>
-	<ul>
-		<li><a href="{{site.baseurl}}/index.html">Home</a></li>
-		<li><a href="{{site.baseurl}}/news.html">News</a></li>
-	</ul>
-</nav>
+
 {{content}}
+
+<footer>
+	{%  include nav.html %}
+</footer>
+
 
 </body>
 </html>
